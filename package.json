@@ -1,0 +1,26 @@
+{
+  "name": "vue-play-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "html-loader": "^0.4.5",
+    "markdown-loader": "^2.0.0",
+    "vue-markdown-loader": "^1.0.0",
+    "vue-styleguide-generator": "^0.9.18"
+  },
+  "devDependencies": {
+    "poi": "^8.0.0",
+    "vue-play": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "play": "poi --config play.config.js",
+    "build:play": "poi build --config play.config.js",
+    "build-components": "node ./node_modules/vue-styleguide-generator/ --src src/components",
+    "components": "node ./node_modules/vue-styleguide-generator44/ --src src/components"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
